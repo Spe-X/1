@@ -13,6 +13,8 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  position: relative;
+  background-color: #f2f2f2;
   /* выше установили ограничения для секции */
 }
 
@@ -21,6 +23,65 @@
   height: 568px;
   width: 568px;
 }
+.logo_place_header {
+  position: absolute;
+  width: 228px;
+  height: 32px;
+  top: 30px;
+  left: 64px;
+}
+.header__title {
+  position: absolute;
+  left: 64px;
+  top: 200px;
+  line-height: 96px;
+  font-size: 102px;
+  width: 730px;
+  font-weight: 600;
+  z-index: 3;
+}
+.header__subtitle {
+  position: absolute;
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  left: 64px;
+  bottom: 30px;
+}
+.header__link {
+  text-decoration:none;
+}
+.main-illustration {
+  position: absolute;
+  width: 765px;
+  height: 608px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 2;
+}
+.square-pic {
+  position:absolute;
+  background-color:#2f80ed;
+  height: 568px;
+  width: 568px;
+  right: 0px;
+  top: 64px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
