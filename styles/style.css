@@ -8,6 +8,7 @@
 
 /*Научиться Учиться*/
 .header {
+  display: flex;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -45,19 +46,19 @@
 }
 .main-illustration {
   position: absolute;
-  width: 765px;
-  height: 608px;
   right: 0px;
   bottom: 0px;
+  width: 765px;
+  height: 608px;
   z-index: 2;
 }
 .square-pic {
   position:absolute;
+  right: 0px;
+  top: 64px;
   background-color:#2f80ed;
   height: 568px;
   width: 568px;
-  right: 0px;
-  top: 64px;
 }
 
 
@@ -122,7 +123,7 @@
   margin: 0px auto;
 }
 ul {
-  margin-left: 0; 
+  margin-left: 0;
   padding-left: 0;
  }
 li {
@@ -188,7 +189,7 @@ li {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  color: #2f80ed; 
+  color: #2f80ed;
   position:absolute;
   right: 48px;
   top: 50%;
@@ -211,10 +212,10 @@ li {
 }
 .kaufman__triangle {
   position: absolute;
-  z-index: -1;
-  padding: 0;
   top: 0px;
   right: -210px;
+  z-index: -1;
+  padding: 0;
   margin-top: 0px;
 }
 .section-title__text_theme_dark {
@@ -305,7 +306,6 @@ footer {
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
-  margin-top: 0px;
   margin-bottom: 20px;
   margin-top: 60px;
 }
