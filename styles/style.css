@@ -153,6 +153,9 @@ ul {
   margin-top: 20px;
   margin-bottom: 0px;
 }
+
+
+/*Метод Фейнмана*/
 .feynman {
   position: relative;
   min-height: 780px;
@@ -190,25 +193,68 @@ ul {
   bottom: 0;
   z-index: -1;
   margin-bottom: 0px;
+}   
+
+
+
+/*Кауфман*/
+.kaufman {
+  position: relative;
+  background-color: #1f1f1f;
+  overflow: hidden;
+  z-index: -2;
 }
+.kaufman__triangle {
+  position: absolute;
+  z-index: -1;
+  padding: 0;
+  top: 0px;
+  right: -210px;
+  margin-top: 0px;
+}
+.section-title__text_theme_dark {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  width: 60%;
+  text-align: center;
+  margin: 90px auto 20px auto;
+  color: #f2f2f2;
+}
+.section-subtitle__theme_dark {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  color: #f2f2f2;
+  width: 60%;
+  text-align: center;
+  margin: 0px auto;
+}
+.table__theme_dark {
+  display: flex;
+  flex-flow: column wrap;
+  flex-direction: row;
+  width:68%;
+  margin: 0px auto 90px auto;
+  justify-content: space-between;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
+}
+.cell_theme_dark {
   width: 200px;
-  color: white;
-  margin-right: 0;
   margin-top: 80px;
+}
+.heading__theme_dark {
+  color: #f2f2f2;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.text__theme_dark {
+  color: #f2f2f2;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 0px;
 }
