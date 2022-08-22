@@ -4,16 +4,15 @@
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+
+
+/*Научиться Учиться*/
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   position: relative;
   background-color: #f2f2f2;
-}
-.header__square-pic {
-  height: 568px;
-  width: 568px;
 }
 .logo_place_header {
   position: absolute;
@@ -60,6 +59,9 @@
   right: 0px;
   top: 64px;
 }
+
+
+/*Главные проблемы в обучении*/
 .description {
   width:80%;
   margin: auto;
@@ -99,13 +101,10 @@
   font-size: 24px;
   font-weight: 600;
 }
-li {
-  list-style-type: none; 
- }
-ul {
-  margin-left: 0; 
-  padding-left: 0;
- }
+
+
+
+/*Цифры и факты*/
 .section-title {
   line-height: 1.15;
   font-size: 60px;
@@ -122,6 +121,13 @@ ul {
   text-align: center;
   margin: 0px auto;
 }
+ul {
+  margin-left: 0; 
+  padding-left: 0;
+ }
+li {
+  list-style-type: none; 
+ }
 .table {
   display: flex;
   width: 1100px;
@@ -169,7 +175,6 @@ ul {
   font-weight: 600;
   text-align: center;
   margin: 0px auto;
-
 }
 .feynman__subtitle {
   width: 648px;
@@ -237,7 +242,6 @@ ul {
   width:68%;
   margin: 0px auto 90px auto;
   justify-content: space-between;
-
 }
 .cell_theme_dark {
   width: 200px;
@@ -257,4 +261,64 @@ ul {
   font-size: 18px;
   font-weight: normal;
   margin-bottom: 0px;
+}
+
+
+/*Footer*/
+footer {
+  background-color:#1f1f1f;
+  min-height: 350px;
+}
+.logo {
+  width: 228px;
+  height: 32px;
+}
+.footer__columns{
+  display: flex;
+  width:90%;
+  margin: 0px auto 40px auto;
+  min-height: 310px;
+}
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  width: 50%;
+  position: relative;
+  margin-top: 60px;
+}
+.author {
+  color: #f2f2f2;
+  position: absolute;
+  bottom: 0;
+  margin:18px 0px;
+}
+.footer__columm_content_info {
+  width: 9%;
+  margin-left: 16.3%;
+}
+.footer__columm_content_social {
+  margin-right: 0px;
+  width: 8%;
+  margin-left: 17%;
+}
+.footer__column-heading {
+  color: #f2f2f2;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+.footer__column-link {
+  color: #f2f2f2;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+}
+.footer__column-links {
+  margin-bottom: 16px;
+}
+.footer__column-icon {
+  margin-right: 10px;
 }
