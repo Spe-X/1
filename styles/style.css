@@ -4,10 +4,6 @@
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-li {
-  list-style-type: none; 
-}
-
 
 /*Научиться Учиться*/
 .header {
@@ -142,6 +138,7 @@ li {
 .table__cell {
   width: 250px;
   margin-top: 60px;
+  list-style-type: none; 
 }
 .table__heading {
   line-height: 1.15;
@@ -240,10 +237,10 @@ li {
   width: 200px;
   margin-top: 80px;
 }
-.heading_theme_dark {
+.table__heading_theme_dark {
   color:white;
 }
-.text_theme_dark {
+.table__text_theme_dark {
   color:white;
   margin-bottom: 0px;
 }
