@@ -291,6 +291,9 @@
   font-weight: normal;
   text-decoration: none;
 }
+.footer__columns-2 {
+  list-style-type: none;
+}
 .footer__column-links {
   margin-bottom: 16px;
   padding-left: 0px;
