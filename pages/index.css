@@ -42,10 +42,7 @@
 @import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
 @import url(../blocks/table/__theme/table_theme_dark.css);
 
-/* grey background */
-@import url(../blocks/grey/__background/grey__background.css);
-@import url(../blocks/grey/__line/grey__line.css);
-@import url(../blocks/grey/__line_2/grey__line_2.css);
+
 
 /* cards */
 @import url(../blocks/cards/__description/cards__description.css);
