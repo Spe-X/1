@@ -1,7 +1,7 @@
  ᅠ
 <a href="https://practicum.yandex.ru/"><img style="display: block; margin: auto" alt="Логотип Я ндекса" src="./images/logo_place_header.svg"></a>ᅠ
 
-##Проектная работа: "___How to learn___".<br/>Онлайн курс <a href="https://practicum.yandex.ru/web/">"Веб-разработчик"</a>
+Проектная работа: "___How to learn___".<br/>Онлайн курс <a href="https://practicum.yandex.ru/web/">"Веб-разработчик"</a>
 ___
 <h3 style="text-align: center;">Описание</h3>
 
